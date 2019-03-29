@@ -18,5 +18,12 @@ header {
 	float: left;
 }
 
+#main-header {
+	padding-top: 50px;
+	padding-right: 175px;
+	padding-bottom: 50px;
+	padding-left: 175px;
+}
+
 @media (min-width:960px;)
 
