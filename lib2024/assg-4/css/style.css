@@ -11,7 +11,7 @@ header {
 .clearfix:after {
 	content: "";
 	clear: both;
-	display: inline-block;
+	display: inline;
 }
 
 .header {
