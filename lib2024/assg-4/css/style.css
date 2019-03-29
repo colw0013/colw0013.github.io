@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	height: 230px;
+	background-color: #7cc576;
+}
+
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: inline-block;
+}
+
+.header {
+	float: left;
+}
+
+@media (min-width:960px;)
+
