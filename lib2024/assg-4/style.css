@@ -3,9 +3,21 @@
 	padding: 0;
 }
 
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: inline-block;
+}
+
 header {
 	height: 230px;
 	background-color: #7cc576;
 }
 
+
+.header {
+	float: left;
+}
+
 @media (min-width:960px;)
+
