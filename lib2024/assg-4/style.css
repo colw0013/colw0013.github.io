@@ -2,3 +2,9 @@
 	margin: 0;
 	padding: 0;
 }
+
+header {
+	width: 960px;
+	height: 230px;
+	background-color: #7cc576
+}
