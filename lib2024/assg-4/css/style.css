@@ -35,3 +35,7 @@ footer {
 .header {
 	float: left;
 }
+
+#main-heading {
+	padding-right: 25px;
+}
