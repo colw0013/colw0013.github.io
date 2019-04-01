@@ -1,42 +1,36 @@
-*{
+@charset "utf-8";
+
+* {
 	margin: 0;
-	padding: 0;
+	padding:0;
 }
 
 header {
-	height: 230px;
 	background-color: #7cc576;
+	width: 100%;
+	min-height: 238px;
+}
+
+main {
+	background-image: url(https://colw0013.github.io/lib2024/assg-4/img/circles-light.png);
+	background-repeat: no-repeat;
+	background size: cover;
+	min-height: 688px;
+	width: 96%;
+	padding: 2%;
+}
+
+
+footer {
+	background-color: #7cc576;
+	min-height: 105px;
+	width: 96%;
+	padding: 2%;
 }
 
 .clearfix:after {
 	content: "";
 	clear: both;
-	display: inline;
+	display: inline-block;
 }
-
-.header {
-	float: left;
-}
-
-#main-header {
-	padding-top: 50px;
-	padding-right: 430px;
-	padding-bottom: 50px;
-	padding-left: 175px;
-}
-
-.nav {
-	position: relative;
-	clear: both;
-}
-
-.nav {
-	box-sizing: border-box;
-	width:100%
-	padding: 46px;
-	background: #6dcff6;
-	border-bottom: 4px solid #121212;
-}
-
-@media (min-width:960px;)
 
