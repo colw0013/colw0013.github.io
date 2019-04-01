@@ -36,9 +36,23 @@ footer {
 	float: left;
 }
 
+.main-nav {
+	min-height: 
+}
+
 #main-heading {
 	padding-top: 50px;
 	padding-right: 175px;
 	padding-bottom: 50px;
 	padding-left: 175px;
+}
+
+#nav-div {
+	position: relative;
+	left: 0px;
+	bottom: 0px;
+	width: 92%;
+	display: block;
+	margin-left: 4%;
+	margin-right: 4%;
 }
