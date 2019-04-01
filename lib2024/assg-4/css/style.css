@@ -68,3 +68,8 @@ footer {
 	float: left;
 	width: 65%;
 }
+
+#main-sidebar {
+	float: right;
+	width: 31%;
+}
