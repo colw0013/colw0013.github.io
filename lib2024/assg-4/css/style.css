@@ -84,3 +84,13 @@ footer {
 	width: 96%;
 	margin-top: 3%;
 }
+
+#footer-container-1 {
+	float: left;
+	width: 73%;
+}
+
+#footer-container-2 {
+	float: right;
+	width: 23%;
+}
