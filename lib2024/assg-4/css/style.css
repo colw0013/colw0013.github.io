@@ -73,3 +73,9 @@ footer {
 	float: right;
 	width: 31%;
 }
+
+#images {
+	float: left;
+	width: 96%;
+	margin-top: 3%;
+}
