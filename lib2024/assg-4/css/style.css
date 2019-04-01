@@ -63,3 +63,8 @@ footer {
 	margin-left: 4%;
 	margin-right: 4%;
 }
+
+#main-content {
+	float: left;
+	width: 65%;
+}
