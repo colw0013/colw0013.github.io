@@ -47,6 +47,11 @@ footer {
 	margin-right: 4%;
 }
 
+.cats {
+	display: inline-block;
+	text-align: center;
+}
+
 #main-heading {
 	padding-top: 50px;
 	padding-right: 175px;
