@@ -37,7 +37,14 @@ footer {
 }
 
 .main-nav {
-	min-height: 
+	min-height: 65px;
+	width: 15%;
+	background-color: #6dcff6;
+	bottom: 0px;
+	display: inline-block;
+	text-align: center;
+	margin-left: 4%;
+	margin-right: 4%;
 }
 
 #main-heading {
