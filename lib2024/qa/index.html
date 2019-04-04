@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>QA-LIB2024- Allyson Colwell</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
 		<h1>QA for LIB2024</h1>
@@ -88,6 +89,49 @@
 				<p><strong>Qus</strong>How would you link an external style sheet? Give example.</p>
 				<p><strong>Ans</strong>You would link a style sheet like so; 
 					&lt; link rel ="style sheet" type="text/css" href="css/style.css"></p>
+			</li>
+			<li>
+				<p><strong>Qus</strong>Create CSS block to center an element both horizontally and vertically that has position:absolute and has width:200px and height:200px</p>
+				<p><strong>Ans</strong>
+					.qa-nav {
+	min-height: 200px;
+	width: 200px;
+	text-align: center;
+	position: absolute;
+
+}
+</p>
+			</li>
+			<li>
+				
+				<p><strong>Qus</strong>Create CSS keyframes block called "spin" that rotates an element</p>
+				<p><strong>Ans</strong>
+				@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}</p>
+			</li>
+			<li>
+				<p><strong>Qus</strong>Create CSS animation block to rotate an element that has the following properties :class "rotate-me" It rotates 5 times at intervals of 0.5s with "linear" transition using animation keyframes "spin"</p>
+				<p><strong>Ans</strong>
+					@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.class {
+	transform: rotate(360deg);
+	animation: 
+	spin o.5s linear infinite
+}
+				</p>
 			</li>
 </li>
 </ol>
