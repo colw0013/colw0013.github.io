@@ -3,9 +3,188 @@
 <head>
 	<meta charset="utf-8">
 	<title>LIB 2024 FINAL</title>
-	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-
+	<div class="container" id="container">
+		<!-- header start -->
+		<header class="clearfix">
+			<div id="header">
+			<h1 class="title" id="title">My Logo</h1>
+			</div>
+		<!-- main navagation start -->
+			<div class="main-nav" id="main-nav">
+				<nav id="header-nav">
+					<ul id="nav-ul">
+						<li class="nav">
+							<p>Home</p>
+						</li>
+						<li class="nav">
+							<p>About</p>
+						</li>
+						<li class="nav">
+							<p>Schedule</p>
+						</li>
+						<li class="nav">
+							<p>Portfolio</p>
+						</li>
+						<li class="nav">
+							<p>Contact</p>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		<!-- main navagation end -->
+		</header>
+		<!-- header end -->
+		<!-- main content start -->
+		<main class="main-content" id="main-content">
+			<section id="content">
+				<h2>About</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+				<img src="img/logo.jpg" alt="camera" id="side-photo" style="width: 284px;height: 212px;">
+			</section>
+		</main>
+		<!-- main content end -->
+		<!-- table start -->
+		<h2>Schedule</h2>
+		<table class="schedule" id="schedule">
+			<tr>
+				<th>Time</th>
+				<th>Monday</th>
+				<th>Tuesday</th>
+				<th>Wednesday</th>
+				<th>Thursday</th>
+				<th>Friday</th>
+			</tr>
+			<tr>
+				<td>09:00-11:00</td>
+				<td>Communications 1</td>
+				<td>Client Services</td>
+				<td>Special Collections</td>
+				<td>Directed Research Seminar</td>
+				<td>Client Services</td>
+			</tr>
+			<tr>
+				<td>11:00-12:30</td>
+				<td>Reference</td>
+				<td>Internet App</td>
+				<td>Library Software</td>
+				<td>French</td>
+				<td>Reference</td>
+			</tr>
+			<tr>
+				<td>14:00-15:00</td>
+				<td>Aquisitions</td>
+				<td>General Elective</td>
+				<td>Marketing</td>
+				<td>Emerging Library Tech</td>
+				<td>Library Software</td>
+			</tr>
+			<tr>
+				<td>15:30-17:30</td>
+				<td>French</td>
+				<td>French</td>
+				<td>Aquisitions</td>
+				<td>Subject Analysis</td>
+				<td>Internet App</td>
+			</tr>
+		</table>
+		<!-- table end -->
+		<!-- edit profile start -->
+		<h2>Edit Profile</h2>
+			<div class="wrapper" id="wrapper">
+				<section class="form">
+					<form action="assignment.php">
+						<div class="form-element" id="name-container">
+							<label for="name">Name:</label>
+							<input type="text" name="name" id="name" placeholder="John Doe">
+						</div>
+						<br>
+						<div id="em" class="form-element">
+							<label for="email">Email:</label>
+							<input type="email" name="email" id="email" placeholder="example@website.com">
+						</div>
+						<br>
+						<div id="address" class="form-element" >
+							<label for="address">Address:</label>	
+							<input type="address" name="address" id="address" placeholder="123 Example St.">
+						</div>
+						<br>
+						<div id="city" class="form-element">
+							<label for="city">City:</label>
+							<input type="city" name="city" id="city" placeholder="Calgary">
+						</div>
+						<br>
+						<div id="drop-container" class="form-element">
+							<label for="province">Province:</label>
+							<select name="province" id="province">
+								<option value="AB">Alberta</option>
+								<option value="BC">British Columbia</option>
+								<option value="MB">Manitoba</option>
+								<option value="NFLD">Newfoundland and Labrador</option>
+								<option value="NB">New Brunswick</option>
+								<option value="NS">Nova Scotia</option>
+								<option value="NT">Northwest Territories</option>
+								<option value="NU">Nunavut</option>
+								<option value="ON">Ontario</option>
+								<option value="PE">Prince Edward Island</option>
+								<option value="QC">Quebec</option>
+								<option value="SK">Saskatchewan</option>
+								<option value="YT">Yukon</option>
+							</select>
+						</div>
+						<br>
+						<div id="postal-code" class="form-element">
+							<label for="postal-code">Postal Code:</label>
+							<input type="postal-code" name="postal-code" placeholder="1A2-B3C">
+						</div>
+						<br>
+						<button type="submit">SUBMIT</button>
+					</form>
+				</section>
+			</div>
+			<!-- edit profile end -->
+			<!-- profile card start -->
+			<h2>Profile Info</h2>
+			<div class="card">
+				<img src="img/mike.JPG" alt="mike" style="width:100px;height: 100px;">
+				<h1>John Doe</h1>
+				<p class="description">
+					JohnDoe@algonquincollege.com
+					1385 Woodroffe Ave, Nepean, 
+					ON, K2G 1V8
+				</p>
+				<i class="far fa-envelope"></i></a>
+			</div>
+			<!-- profile card end -->
+			<!-- footer start -->
+			<footer class="footer" id="footer">
+				<div class="footer-container" id="footer-container-1">
+					<p>QUICK LINKS</p>
+					<li>SCHEDULE</li>
+					<li>ABOUT</li>
+					<li>PORTFOLIO</li>
+					<li>CONTACT</li>
+				</div>
+				<div class="footer-container" id="footer-container-2">
+					<p>FOLLOW US</p>
+					<a href="https://www.facebook.com"><img src="img/facebook.png" alt="facebook"></a>
+					<a href="https://www.youtube.com"><img src="img/youtube.png" alt="youtube"></a>
+					<a href="https://twitter.com"><img src="img/twitter.png" alt="twitter"></a>
+				</div>
+				<div class="footer-container" id="footer-container-3">
+					<p>ADDRESS</p>
+					<p>1385 Woodroffe Ave, Nepean, 
+					ON, K2G 1V8</p>
+				</div>
+			</footer>
+			<!-- footer end -->
+	
 </body>
 </html>
