@@ -1,0 +1,54 @@
+/*CSS clearfix*/
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/************************
+		MOBILE FIRST
+************************/
+
+
+
+table, th, td {
+  border: 1px solid black;
+}
+
+* {
+	margin: 0;
+	padding:0;
+}
+
+main {
+	background-image: url(https://colw0013.github.io/lib2024/final/img/dynamic-style.png);
+}
+
+footer {
+	background-color: #454545;
+	min-height: 105px;
+	width: 96%;
+	padding: 2%;
+}
+
+.side-photo {
+	float: right;
+}
+
+
+.main-nav {
+	background-color: #72a9ae;
+	width: 100%;
+	min-height: 90px;
+}
+
+#nav {
+	float: left; 
+}
+
+.footer-container-2 {
+	float: right;
+	width: 23%;
+
+}
